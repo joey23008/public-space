@@ -1,0 +1,33 @@
+@charset "utf-8";
+
+body {
+    background-color: rgb(215, 253, 253);
+}
+.container {
+    padding: 20px 2% 0;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+article {
+    padding-top: 56px;
+}
+
+.tabs-first > ul {
+    border: none;
+}
+
+.tabs-first > ul > .nav-item a {
+    background-color: #20c997;
+    color: inherit;
+}
+
+.tabs-first > ul > .nav-item a.active {
+    background-color: inherit;
+}
+
+.tabs-first .tab-pane {
+    width: 100%;
+}
