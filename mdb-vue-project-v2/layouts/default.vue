@@ -1,7 +1,9 @@
 <template>
   <article>
-    <TheHeader />
-    <nuxt class="container" />
+    <v-app>
+      <TheHeader />
+      <nuxt class="container" />
+    </v-app>
   </article>
 </template>
 
